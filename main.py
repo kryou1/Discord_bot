@@ -8,7 +8,7 @@ import pandas as pd
 from datetime import datetime
 import requests
 
-token = 'MTAwODk4MTgxMjYyNzkxNDc3Mw.G6nrg5.lAUnNEQfJICh6vn18ygHg32bY-VZTIcihQjhDk'    # Change it
+token = 'token'    # Change it
 cmd_prefix = '!'            # Change it
 bot = cmds.Bot(command_prefix=cmd_prefix, intents=dc.Intents.all(), help_command=None)
 cg = CoinGeckoAPI()
